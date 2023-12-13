@@ -1,0 +1,65 @@
+/* style_event_setup.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1; /* Adjust the background color as needed */
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    margin-left: 290px;
+}
+
+h2 {
+    color: black; /* Adjust heading color as needed */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50; /* Adjust label color as needed */
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    border-color: #3498db; /* Change the border color on hover/focus */
+}
+
+button {
+    background-color: #4CAF50; /* Change the button background color as needed */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #166b16; /* Change the button hover background color as needed */
+}

@@ -1,0 +1,48 @@
+/* style_sidebar.css */
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #222; /* Change the background color as needed */
+    color: #ecf0f1; /* Change the text color as needed */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: #ecf0f1; /* Change the text color as needed */
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.sidebar a i {
+    margin-right: 10px;
+    font-size: 18px; /* Adjust the icon size as needed */
+}
+
+.sidebar a:hover {
+    background-color: #34495e; /* Change the hover background color as needed */
+}
+
+.logout-btn {
+    background-color: #e74c3c; /* Change the button background color as needed */
+    color: #ecf0f1; /* Change the button text color as needed */
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b; /* Change the hover background color as needed */
+}

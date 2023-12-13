@@ -1,0 +1,73 @@
+/* style_event_page.css */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px; /* Set the maximum width of the container */
+    margin: 0 auto;   /* Center the container horizontally */
+    padding: 20px;    /* Add padding as needed */
+    margin-left: 290px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.event-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.event-details p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.event-details button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: auto;
+}
+
+.event-details button:hover {
+    background-color: #ff4533;
+}
+
+video,
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.event-details img,
+.event-details video {
+    max-width: 30%; /* Adjust the value as needed */
+    height: auto;
+    display: block;
+    margin: auto;
+}

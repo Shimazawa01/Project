@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Center the event container vertically */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-left: 290px;
+}
+
+.event-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.event-container h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.event-container p {
+    color: #333;
+}
+
+/* style_events.css */
+
+.event-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 60%; /* Set the desired width as a percentage */
+    margin: auto; /* Center the event card horizontally */
+}
+
+.event-card h3 {
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    color: #333;
+}
+
+/* Styles for image or video inside the card */
+.event-card img,
+.event-card video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}

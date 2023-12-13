@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to TicketStar</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="intro">
+            <h1>Welcome to TicketStar</h1>
+            <p>Discover and create amazing events!</p>
+        </div>
+        <div class="options">
+            <a href="../login/event_maker_registration.php" class="btn event-maker">Register as Event Maker</a>
+            <a href="../login/regular_user_registration.php" class="btn regular-user">Register as Regular User</a>
+            <a href="../login/login.php" class="btn regular-user">Login</a>
+        </div>
+    </div>
+
+    <script>
+        // Add JavaScript to trigger the animation
+        document.addEventListener('DOMContentLoaded', function () {
+            // Show intro and options with a delay
+            setTimeout(function () {
+                document.querySelector('.intro').classList.add('show');
+                document.querySelector('.options').classList.add('show');
+            }, 500); // Adjust the delay as needed
+        });
+    </script>
+</body>
+
+</html>

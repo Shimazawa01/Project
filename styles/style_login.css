@@ -1,0 +1,71 @@
+/* style_login.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222; /* Change the background color as needed */
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-box h2 {
+    color: #2c3e50; /* Adjust heading color as needed */
+}
+
+.error-message {
+    color: #e74c3c; /* Adjust error message color as needed */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50; /* Adjust label color as needed */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50; /* Change the button background color as needed */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Change the button hover background color as needed */
+}
+
+.link-to-entry {
+    margin-top: 20px;
+    color: #2c3e50; /* Adjust link color as needed */
+    text-decoration: none;
+}
+
+.link-to-entry:hover {
+    text-decoration: underline;
+}

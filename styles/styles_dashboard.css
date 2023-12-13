@@ -1,0 +1,18 @@
+/* style_dashboard.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 290px; /* Match the width of the sidebar */
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50; /* Adjust heading color as needed */
+}
+
+/* Add more styles as needed */
